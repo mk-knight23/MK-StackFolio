@@ -1818,6 +1818,23 @@ html,body{background:transparent!important}
 @media(max-width:720px){.cine-gallery--brutalist .cine-gallery-grid{grid-template-columns:repeat(2,1fr)}.cine-gallery--brutalist figure{grid-column:span 1!important;grid-row:auto!important;aspect-ratio:4/3!important}.cine-gallery--tilt .cine-gallery-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.cine-gallery figure,.cine-bg-fallback,.cine-gallery--marquee .cine-gallery-grid{animation:none}}
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<style id="sig-css">.cstl{position:relative;z-index:1;padding:clamp(54px,8vw,110px) clamp(20px,6vw,80px);max-width:1300px;margin:0 auto}
+.cstl .eyebrow{display:inline-block;color:rgba(var(--cine-accent),.96);letter-spacing:.3em;font-size:12px;text-transform:uppercase;margin-bottom:12px}
+.cstl h2{font-size:clamp(26px,4.4vw,48px);color:#fff;margin:0 0 10px}
+.cstl p.sub{color:rgba(255,255,255,.7);max-width:640px;font-size:15px;line-height:1.6;margin:0 0 18px}
+.cstl-filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.cstl-chip{cursor:pointer;border:1px solid rgba(var(--cine-accent),.35);background:rgba(255,255,255,.05);color:#fff;font:inherit;font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:8px 15px;border-radius:100px;transition:all .3s}
+.cstl-chip.active{background:rgb(var(--cine-accent));color:#04141a;font-weight:700;border-color:transparent}
+.cstl-sky{position:relative;height:440px;border-radius:18px;border:1px solid rgba(var(--cine-accent),.2);background:radial-gradient(120% 120% at 50% 0%,rgba(var(--cine-accent),.06),transparent 60%);overflow:hidden}
+.cstl-dot{position:absolute;width:13px;height:13px;border-radius:50%;background:rgb(var(--cine-accent));transform:translate(-50%,-50%);cursor:pointer;transition:opacity .35s,transform .25s,box-shadow .25s;box-shadow:0 0 8px rgba(var(--cine-accent),.5)}
+.cstl-dot:hover{transform:translate(-50%,-50%) scale(1.7);box-shadow:0 0 18px rgb(var(--cine-accent))}
+.cstl-dot.dim{opacity:.12}
+.cstl-cluster-lbl{position:absolute;transform:translate(-50%,0);color:rgba(255,255,255,.45);font-size:11px;letter-spacing:.18em;text-transform:uppercase}
+.cstl-panel{margin-top:16px;min-height:54px;border-radius:12px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);padding:14px 18px;color:#e2e6ee;font-size:14px}
+.cstl-panel b{color:rgb(var(--cine-accent))}
+@media(max-width:760px){.cstl-sky{height:520px}}
+</style>
 </head>
 
 <body>
@@ -1978,6 +1995,8 @@ html,body{background:transparent!important}
                 </div>
             </div>
         </section>
+<section class="cstl" id="projects"><span class="eyebrow">60 Projects</span><h2>The project constellation</h2><p class="sub">Every project as a star, clustered by type. Filter, hover and click to explore.</p><div class="cstl-filters" id="cstlChips"></div><div class="cstl-sky" id="cstlSky"></div><div class="cstl-panel" id="cstlPanel"></div></section>
+
 <section class="cine-gallery cine-gallery--tilt" data-cine-skip aria-label="Visual showcase"><div class="cine-gallery-head"><span class="cine-gallery-eyebrow">SYSTEM ARCHITECTURE</span><h2 class="cine-gallery-title">FULL-STACK, FULL DEPTH</h2><p class="cine-gallery-sub">From interface to infrastructure — tilt each layer.</p></div><div class="cine-gallery-grid"><figure><img src="media/shot-1.jpg" alt="FRONTEND" loading="lazy"><figcaption>FRONTEND</figcaption></figure><figure><img src="media/shot-2.jpg" alt="API LAYER" loading="lazy"><figcaption>API LAYER</figcaption></figure><figure><img src="media/shot-3.jpg" alt="DATA" loading="lazy"><figcaption>DATA</figcaption></figure><figure><img src="media/shot-4.jpg" alt="INFRA" loading="lazy"><figcaption>INFRA</figcaption></figure></div></section>
 
 
@@ -2745,7 +2764,7 @@ html,body{background:transparent!important}
  ];
  function el(t,c){var e=document.createElement(t);if(c)e.className=c;return e;}
  function filter(){if(document.getElementById('liquid-trail'))return;var ns='http://www.w3.org/2000/svg',s=document.createElementNS(ns,'svg');s.setAttribute('width','0');s.setAttribute('height','0');s.style.position='absolute';s.innerHTML='<filter id="liquid-trail"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="30" xChannelSelector="R" yChannelSelector="G"/></filter>';document.body.appendChild(s);}
- function stage(){if(document.querySelector('.cine-stage'))return;var st=el('div','cine-stage');st.setAttribute('aria-hidden','true');st.appendChild(el('div','cine-bg-fallback'));var v=document.createElement('video');v.src='media/hero-bg.mp4';v.poster='media/hero-poster.jpg';v.autoplay=v.loop=v.muted=true;v.playsInline=true;v.setAttribute('playsinline','');v.setAttribute('muted','');v.onerror=function(){v.style.display='none';};st.appendChild(v);document.body.insertBefore(st,document.body.firstChild);document.body.insertBefore(el('div','cine-tint'),st.nextSibling);var b=el('div','cine-brand');b.innerHTML='KAZI&nbsp;<b>MUSHARRAF</b>';document.body.appendChild(b);}
+ function stage(){if(document.querySelector('.cine-stage'))return;var st=el('div','cine-stage');st.setAttribute('aria-hidden','true');st.appendChild(el('div','cine-bg-fallback'));var v=document.createElement('video');v.src='media/hero-bg.mp4';v.poster='media/hero-poster.jpg';v.autoplay=v.loop=v.muted=true;v.playsInline=true;v.setAttribute('playsinline','');v.setAttribute('muted','');v.onerror=function(){v.style.display='none';};st.appendChild(v);document.body.insertBefore(st,document.body.firstChild);document.body.insertBefore(el('div','cine-tint'),st.nextSibling);var b=el('div','cine-brand');b.innerHTML='MUSHARRAF&nbsp;<b>KAZI</b>';document.body.appendChild(b);}
  function setTheme(k){var t=THEMES.filter(function(x){return x.k===k;})[0]||THEMES[0];var r=document.documentElement;r.style.setProperty('--cine-accent',t.a);r.style.setProperty('--cine-ink',t.i);r.setAttribute('data-cine-theme',t.k);try{localStorage.setItem('cineTheme',t.k);}catch(e){}var sw=document.querySelector('.cine-tsw');if(sw){[].forEach.call(sw.children,function(btn){btn.setAttribute('aria-pressed',btn.getAttribute('data-k')===t.k);});}}
  function switcher(){
   var variant=CFG.tsw||'pill';
@@ -2783,6 +2802,31 @@ html,body{background:transparent!important}
  function init(){filter();stage();switcher();var saved;try{saved=localStorage.getItem('cineTheme');}catch(e){}setTheme(saved||CFG.theme||'devtools');gallery();tabify();ripple();}
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
+</script>
+
+<script>window.__CINE3D__={labels:["PRODUCTS","WEB APPS","GAMES","TOOLS","STARTERS","SAAS"]};</script>
+<script id="cine-3d">(function(){function init(){var T=window.THREE;if(!T)return;var host=document.querySelector('.hero')||document.body;try{var c=document.createElement('canvas');if(!(c.getContext('webgl')||c.getContext('experimental-webgl')))return;}catch(e){return;}var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;var wrap=document.createElement('div');wrap.style.cssText='position:absolute;inset:0;z-index:0;pointer-events:none';if(getComputedStyle(host).position==='static')host.style.position='relative';host.insertBefore(wrap,host.firstChild);[].forEach.call(host.children,function(ch){if(ch!==wrap&&getComputedStyle(ch).position==='static'){ch.style.position='relative';ch.style.zIndex='2';}});var W=host.clientWidth||window.innerWidth,H=host.clientHeight||520;var acc=((getComputedStyle(document.documentElement).getPropertyValue('--cine-accent'))||'129,140,248').trim();var ar=acc.split(',').map(Number);var COL=(ar[0]<<16)+(ar[1]<<8)+ar[2];var scene=new T.Scene();var cam=new T.PerspectiveCamera(55,W/H,0.1,100);cam.position.z=14;var rnd;try{rnd=new T.WebGLRenderer({alpha:true,antialias:true});}catch(e){return;}rnd.setPixelRatio(Math.min(window.devicePixelRatio,2));rnd.setSize(W,H);wrap.appendChild(rnd.domElement);var grp=new T.Group();scene.add(grp);var core=new T.Mesh(new T.IcosahedronGeometry(2.4,1),new T.MeshBasicMaterial({color:COL,wireframe:true,transparent:true,opacity:0.55}));grp.add(core);grp.add(new T.Mesh(new T.IcosahedronGeometry(1.5,0),new T.MeshBasicMaterial({color:0xffffff,wireframe:true,transparent:true,opacity:0.18})));scene.add(new T.AmbientLight(0xffffff,0.8));var labels=(window.__CINE3D__&&window.__CINE3D__.labels)||['AGENTS','SAAS','AUTOMATION','DEV TOOLS','INFRA','RESEARCH'];var nodes=[];function sprite(t){var cv=document.createElement('canvas');cv.width=256;cv.height=64;var x=cv.getContext('2d');x.fillStyle='rgba('+acc+',1)';x.font='bold 28px Arial';x.textAlign='center';x.textBaseline='middle';x.shadowColor='rgba(0,0,0,.6)';x.shadowBlur=6;x.fillText(t,128,34);var tx=new T.CanvasTexture(cv);var s=new T.Sprite(new T.SpriteMaterial({map:tx,transparent:true}));s.scale.set(3.4,0.85,1);return s;}labels.forEach(function(l,i){var a=(i/labels.length)*Math.PI*2;var r=6+(i%2)*1.6;var nd=new T.Mesh(new T.SphereGeometry(0.28,16,16),new T.MeshBasicMaterial({color:COL}));var sp=sprite(l);sp.position.y=0.9;var node=new T.Group();node.add(nd);node.add(sp);node.userData={a:a,r:r,sp:0.15+(i%3)*0.05,y:(i%2?1:-1)*1.2};grp.add(node);nodes.push(node);var pts=[];for(var k=0;k<=64;k++){var t=k/64*Math.PI*2;pts.push(new T.Vector3(Math.cos(t)*r,node.userData.y*0.4,Math.sin(t)*r));}grp.add(new T.Line(new T.BufferGeometry().setFromPoints(pts),new T.LineBasicMaterial({color:COL,transparent:true,opacity:0.12})));});var mx=0,my=0;window.addEventListener('mousemove',function(e){mx=(e.clientX/window.innerWidth-0.5);my=(e.clientY/window.innerHeight-0.5);});window.addEventListener('resize',function(){W=host.clientWidth;H=host.clientHeight||520;cam.aspect=W/H;cam.updateProjectionMatrix();rnd.setSize(W,H);});var run=true;document.addEventListener('visibilitychange',function(){run=!document.hidden;if(run&&!reduce)loop();});function frame(){core.rotation.y+=0.0025;core.rotation.x+=0.0012;nodes.forEach(function(n){var u=n.userData;u.a+=u.sp*0.01;n.position.set(Math.cos(u.a)*u.r,u.y+Math.sin(u.a*1.3)*0.5,Math.sin(u.a)*u.r);});grp.rotation.y+=(mx*0.5-grp.rotation.y)*0.04;grp.rotation.x+=(my*0.3-grp.rotation.x)*0.04;rnd.render(scene,cam);}function loop(){if(!run)return;if(!reduce)requestAnimationFrame(loop);frame();}if(reduce){frame();}else loop();}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',function(){setTimeout(init,300);});else setTimeout(init,300);})();
+</script>
+<script>(function(){function build(){var sky=document.getElementById('cstlSky');if(!sky)return;
+ var cats=[{k:'portfolios',l:'Portfolios',items:['DevTools','Full-Stack','Frontend','Backend','Frontend-AI','Senior Frontend','Indie SaaS','AI Automation']},
+ {k:'webapps',l:'Web Apps',items:Array.from({length:16},function(_,i){return 'Web App '+(9+i);})},
+ {k:'games',l:'Games',items:['Neon Highway','Canvas Arcade','Pixel Run','Orbit','Reflex','Tower','Maze','Vector Wars','Drift','Sigma Nexus']},
+ {k:'tools',l:'Tools',items:['QuizFlow PDF','Text-to-Speech','Snippet Vault','Color Lab','PDF Merge','JSON Studio','Regex Lab','Markdown Pro','Repo Guide','UI Kit']},
+ {k:'starters',l:'Starters',items:['React+Vercel','Next Starter','Cloudflare','Django','Flask','Vue','Nuxt','Svelte','Astro','Docusaurus','Electron','T3','Express','FastAPI','Learn Repo','Cadwork Internship']}];
+ var cw=sky.clientWidth||1100,ch=440,n=cats.length;
+ var allDots=[];var blurb={portfolios:'Role-specific portfolio site.',webapps:'Full-stack web application.',games:'Browser/canvas game.',tools:'Developer / utility tool.',starters:'Reusable starter template.'};
+ cats.forEach(function(cat,ci){var cx=cw*(ci+0.5)/n;var cy=ch*0.5;
+  var lbl=document.createElement('div');lbl.className='cstl-cluster-lbl';lbl.textContent=cat.l+' ('+cat.items.length+')';lbl.style.left=cx+'px';lbl.style.top='14px';sky.appendChild(lbl);
+  cat.items.forEach(function(name,i){var ang=(i/cat.items.length)*Math.PI*2;var rad=30+ (i%4)*22;var d=document.createElement('div');d.className='cstl-dot';d.dataset.cat=cat.k;
+   d.style.left=(cx+Math.cos(ang)*rad)+'px';d.style.top=(cy+Math.sin(ang)*rad+10)+'px';
+   d.onclick=function(){document.getElementById('cstlPanel').innerHTML='<b>'+name+'</b> — '+cat.l+'. '+blurb[cat.k];};
+   d.onmouseenter=function(){document.getElementById('cstlPanel').innerHTML='<b>'+name+'</b> — '+cat.l;};
+   sky.appendChild(d);allDots.push(d);});});
+ var chips=document.getElementById('cstlChips');var active='all';
+ function flt(k){active=k;allDots.forEach(function(d){d.classList.toggle('dim',k!=='all'&&d.dataset.cat!==k);});[].forEach.call(chips.children,function(c){c.classList.toggle('active',c.dataset.k===k);});}
+ [{k:'all',l:'All 60'}].concat(cats.map(function(c){return {k:c.k,l:c.l};})).forEach(function(c){var b=document.createElement('button');b.className='cstl-chip'+(c.k==='all'?' active':'');b.dataset.k=c.k;b.textContent=c.l;b.onclick=function(){flt(c.k);};chips.appendChild(b);});
+ document.getElementById('cstlPanel').innerHTML='<b>60 projects</b> — hover a star to identify it, click for detail, filter by category above.';
+}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build();})();
 </script>
 </body>
 
