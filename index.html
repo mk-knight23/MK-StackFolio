@@ -1845,7 +1845,7 @@ html,body{background:transparent!important}
 /* résumé download pill */
 .mk-resume{position:fixed;z-index:210;display:inline-flex;align-items:center;gap:8px;background:rgba(var(--cine-accent),.95);color:#06070d;font:700 12px Arial;letter-spacing:.08em;text-transform:uppercase;padding:10px 18px;border-radius:100px;text-decoration:none;box-shadow:0 8px 26px rgba(0,0,0,.4);transition:transform .3s,box-shadow .3s}
 .mk-resume:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(var(--cine-accent),.4)}
-.mk-resume.tr{top:16px;right:18px}.mk-resume.tl{top:16px;left:18px}
+.mk-resume.tr{top:16px;right:18px}.mk-resume.tl{top:16px;left:18px}.mk-resume.bl{bottom:20px;left:18px}
 @media(max-width:600px){.mk-resume{padding:8px 14px;font-size:11px}}
 /* cursor effect bases */
 .mkc{position:fixed;top:0;left:0;pointer-events:none;z-index:9991;will-change:transform}
@@ -2852,7 +2852,7 @@ canvas.mkc-net{position:fixed;inset:0;z-index:9990;pointer-events:none}
  document.getElementById('cstlPanel').innerHTML='<b>60 projects</b> — hover a star to identify it, click for detail, filter by category above.';
 }if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build();})();
 </script>
-<script>window.__V5__={cursor:"magnetic",resumePos:"tl"};</script>
+<script>window.__V5__={cursor:"magnetic",resumePos:"bl"};</script>
 <script id="v5-js">(function(){
  var CFG=window.__V5__||{}; var mode=CFG.cursor||'magnetic';
  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -2862,7 +2862,7 @@ canvas.mkc-net{position:fixed;inset:0;z-index:9990;pointer-events:none}
   try{
    var pat=/kazi-0[1-5]\b|kazi-0[1-5]-|mk-knight-(fullstack|frontend|backend|senior|frontend-ai)|portfolio-devtools\.web|portfolio-indie|portfolio-ai-automation|0[1-8]-portfolio-|openclaw\.dev|mk-knight-senior/i;
    document.querySelectorAll('a[href]').forEach(function(a){var h=a.getAttribute('href')||'';if(pat.test(h)&&h.indexOf(location.hostname)<0){var li=a.closest('li');(li||a).remove();}});
-   document.querySelectorAll('[class*="portfolio-nav"],[class*="cross-portfolio"],[id*="portfolio-nav"],[class*="sibling"],[class*="other-portfolio"],[class*="portfolio-switch"]').forEach(function(el){el.remove();});
+   document.querySelectorAll('[class*="portfolio-nav"],[class*="cross-portfolio"],[id*="portfolio-nav"],[class*="sibling"],[class*="other-portfolio"],[class*="portfolio-switch"],[class*="portfolio-dock"],[class*="dock-item"],[class*="portfolio-rail"]').forEach(function(el){el.remove();});
    // remove now-empty navs/uls/sections that had only links
    document.querySelectorAll('nav,ul,section,div').forEach(function(el){if(el.querySelector('.cine-gallery,.lab,.cstl,.sim,.dev,#cstlSky'))return;if(el.children.length===0&&el.textContent.trim()===''&&el.clientHeight<4){/*skip*/}});
   }catch(e){}
