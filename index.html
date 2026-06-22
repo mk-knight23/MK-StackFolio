@@ -1979,6 +1979,13 @@ img,video,canvas{max-width:100%}
  setTimeout(cleanDeadLinks,2000);
 })();
 </script>
+<style id="v8-css">/* working tabs = constant sticky top header */
+.cine-tabs{position:sticky!important;top:0!important;z-index:130!important;background:rgba(var(--cine-ink),.9)!important;backdrop-filter:blur(22px) saturate(140%)!important;-webkit-backdrop-filter:blur(22px)!important;border-bottom:1px solid rgba(var(--cine-accent),.35)!important;box-shadow:0 6px 24px rgba(0,0,0,.3);padding-top:13px!important;padding-bottom:13px!important}
+/* keep top-corner theme switchers clear of the header */
+.cine-tsw--squares{top:64px!important}
+.cine-tsw--pill{top:64px!important}
+@media(max-width:640px){.cine-tsw--squares,.cine-tsw--pill{top:58px!important}.cine-tabs{padding-top:10px!important;padding-bottom:10px!important}}
+</style>
   <script type="module" crossorigin src="./assets/index-BRZKd7iy.js"></script>
 </head>
 
@@ -3094,6 +3101,13 @@ ready(function(){
  opts.forEach(function(c,i){var b=document.createElement('button');b.className='ghp-chip'+(i===0?' active':'');b.textContent=c[1];b.onclick=function(){render(c[0]);[].forEach.call(chips.children,function(x){x.classList.remove('active')});b.classList.add('active');};chips.appendChild(b);});
  render(opts[0][0]);
 });})();</script>
+<script id="v8-js">(function(){
+ function toTop(){var b=document.querySelector('.cine-tabs');if(b&&document.body.firstChild!==b){document.body.insertBefore(b,document.body.firstChild);}}
+ if(document.readyState!=='loading')setTimeout(toTop,200);
+ document.addEventListener('DOMContentLoaded',function(){setTimeout(toTop,200);});
+ setTimeout(toTop,1100); setTimeout(toTop,2400);
+})();
+</script>
 </body>
 
 </html>
