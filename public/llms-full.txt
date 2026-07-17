@@ -1,0 +1,75 @@
+# Musharraf Kazi — Complete Profile
+
+> AI Engineer, AI Systems Architect, AI-Native Full-Stack Developer, Indie Builder, AI Automation Consultant
+
+## Identity
+
+- Full Name: Musharraf Ateeque Kazi
+- Also Known As: Kazi Musharraf, MK Knight, mk-knight23, mk.knight970
+- Location: India
+- Website: https://mkazi.live
+- GitHub: https://github.com/mk-knight23
+- LinkedIn: https://linkedin.com/in/musharraf-kazi
+- Email: kazi@reprime.com
+
+## Professional Summary
+
+Musharraf Kazi is an AI Engineer and Full-Stack Developer who builds production AI systems, developer tools, and SaaS products. His work spans agentic AI architectures, multi-model routing, real-time dashboards, and client-facing web applications. He has shipped 60+ projects and specializes in turning AI capabilities into working products.
+
+## Technical Skills
+
+### AI & Machine Learning
+- Large Language Model Integration (Claude, GPT, Gemini, Groq, Ollama)
+- Multi-LLM Routing and Orchestration
+- Agentic AI Systems (Tool Calling, Agent Memory, Multi-Agent Workflows)
+- Retrieval-Augmented Generation (RAG)
+- Vector Databases and Embeddings (pgvector, Pinecone)
+- AI SDKs: Anthropic SDK, OpenAI SDK, Vercel AI SDK, LangChain, LangGraph, CrewAI
+
+### Frontend Development
+- React, Next.js, Vue, Nuxt, Angular, Svelte, Astro, Remix
+- TypeScript, JavaScript
+- Tailwind CSS, shadcn/ui
+- Three.js, Framer Motion, GSAP
+- Design Systems and Component Libraries
+- Responsive Design and Accessibility
+
+### Backend Development
+- Node.js, Express, Fastify
+- Python, FastAPI, Django, Flask
+- REST APIs, GraphQL, WebSockets
+- Authentication and Authorization
+- Background Jobs and Queues
+- Serverless Functions
+
+### Data & Infrastructure
+- PostgreSQL, Supabase, Firebase, SQLite
+- Prisma ORM
+- Docker, GitHub Actions
+- Vercel, Cloudflare Workers, Railway, AWS
+- CI/CD Pipelines
+
+## Portfolio Sections
+
+This portfolio is organized into five specialized views that rotate on mkazi.live:
+
+1. **DevTools & AI** — AI developer tools, CLI utilities, SDK integrations, multi-model routing systems
+2. **Full-Stack Products** — End-to-end SaaS applications, dashboards, command centers, CRM integrations
+3. **Frontend Engineering** — Motion design, UI/UX craft, design systems, Three.js experiences, component libraries
+4. **Backend Systems** — APIs, databases, infrastructure, scalability, authentication, data pipelines
+5. **AI Frontend** — AI-powered interfaces, LLM integration UIs, agent-driven user experiences, chat interfaces
+
+## Key Projects
+
+- Multi-LLM Router: Intelligent routing across Claude, GPT, Gemini with cost optimization
+- AI Command Center: Real-time dashboard integrating Gmail, WhatsApp, Calendar, AI Assistant
+- Developer Tool Suite: QuizFlow, VaultPass, VoiceKit, VisualVault, GitFlow
+- Client Websites: Roofing companies, barber schools, real estate platforms
+- Data Platform: Multi-source economic data aggregation with 22-source search
+
+## Contact
+
+For consulting, collaboration, or hiring inquiries:
+- Email: kazi@reprime.com
+- LinkedIn: https://linkedin.com/in/musharraf-kazi
+- GitHub: https://github.com/mk-knight23

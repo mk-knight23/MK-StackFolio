@@ -1,0 +1,27 @@
+# Musharraf Kazi — AI Engineer & Full-Stack Developer
+
+> Personal portfolio of Musharraf Kazi (also known as Kazi Musharraf, MK Knight), an India-based AI Engineer, AI Systems Architect, and Indie Product Builder.
+
+## About
+
+Musharraf Kazi is an AI Engineer specializing in Agentic AI, Multi-LLM Routing, Developer Tools, and Full-Stack Product Development. He builds AI-powered applications, SaaS products, and developer tools using modern web technologies and multiple AI model providers.
+
+## Expertise
+
+- AI Engineering: Agentic AI, Multi-LLM Routing, RAG, Tool Calling, Agent Memory
+- Frontend: React, Next.js, TypeScript, Tailwind CSS, Three.js, Motion Design
+- Backend: Node.js, Python, FastAPI, Django, Flask, Express, REST APIs
+- Data: PostgreSQL, Supabase, Firebase, pgvector, Vector Databases
+- AI Providers: Anthropic Claude, OpenAI, Google Gemini, Groq, Ollama
+- Infrastructure: Vercel, Cloudflare, Docker, GitHub Actions, Serverless
+
+## Links
+
+- Website: https://mkazi.live
+- GitHub: https://github.com/mk-knight23
+- LinkedIn: https://linkedin.com/in/musharraf-kazi
+- Email: kazi@reprime.com
+
+## Projects
+
+This portfolio showcases 60+ shipped projects across AI, full-stack development, frontend engineering, backend systems, and developer tools.
