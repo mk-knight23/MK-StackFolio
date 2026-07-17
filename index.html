@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TJS8PP42");</script>
+<!-- End Google Tag Manager -->
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -1989,6 +1997,11 @@ img,video,canvas{max-width:100%}
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJS8PP42"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <!-- Navigation -->
@@ -3108,6 +3121,38 @@ ready(function(){
  setTimeout(toTop,1100); setTimeout(toTop,2400);
 })();
 </script>
+
+<!-- Portfolio Tracking -->
+<script>
+(function(){
+  var cookie = document.cookie.split(";").find(function(c){return c.trim().startsWith("mkazi_active_site=")});
+  var site = cookie ? decodeURIComponent(cookie.split("=")[1]) : document.title;
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({"portfolio_name": site, "event": "portfolio_identify"});
+  document.addEventListener("click", function(e){
+    var el = e.target.closest("a[href]");
+    if(!el) return;
+    var href = el.href || "";
+    var text = (el.textContent || "").trim().substring(0, 80);
+    if(href.match(/resume|cv/i) || text.match(/resume|cv|download/i)){
+      window.dataLayer.push({"event":"resume_download","link_url":href,"link_text":text});
+    }
+    if(href.match(/github\.com/i)){
+      window.dataLayer.push({"event":"github_click","link_url":href,"link_text":text});
+    }
+    if(href.match(/linkedin\.com/i)){
+      window.dataLayer.push({"event":"linkedin_click","link_url":href,"link_text":text});
+    }
+    if(href.match(/mailto:/i)){
+      window.dataLayer.push({"event":"email_click","link_url":href,"link_text":text});
+    }
+    if(el.matches(".cta, [data-cta], .hero a, .contact a")){
+      window.dataLayer.push({"event":"cta_click","link_url":href,"link_text":text});
+    }
+  });
+})();
+</script>
+
 </body>
 
 </html>
