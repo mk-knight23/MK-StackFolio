@@ -1,10 +1,3 @@
 {
-  "version": 2,
-  "cleanUrls": true,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build"
-    }
-  ]
+  "cleanUrls": true
 }
