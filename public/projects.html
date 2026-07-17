@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-TJS8PP42");</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Musharraf Kazi | AI & Full-Stack Portfolio</title>
+<meta name="description" content="Featured projects by Musharraf Kazi — AI agents, full-stack web apps, developer tools, automation systems, and open-source contributions.">
+<link rel="canonical" href="https://mkazi.live/projects">
+<meta property="og:title" content="Projects — Musharraf Kazi">
+<meta property="og:description" content="AI agents, full-stack web apps, developer tools, and automation systems.">
+<meta property="og:url" content="https://mkazi.live/projects">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Musharraf Kazi">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Projects — Musharraf Kazi">
+<meta name="twitter:description" content="AI agents, full-stack web apps, developer tools, and automation systems.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Projects by Musharraf Kazi",
+  "description": "Featured AI, full-stack, and automation projects",
+  "url": "https://mkazi.live/projects",
+  "author": {
+    "@type": "Person",
+    "name": "Musharraf Kazi",
+    "url": "https://mkazi.live"
+  }
+}
+</script>
+<style>
+:root {
+  --accent: 34, 211, 238;
+  --bg: #0a0a0f;
+  --surface: rgba(255, 255, 255, 0.04);
+  --surface-hover: rgba(255, 255, 255, 0.07);
+  --border: rgba(255, 255, 255, 0.1);
+  --text: #e4e4e7;
+  --text-muted: #a1a1aa;
+  --text-dim: #71717a;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(120% 90% at 50% 0%, rgba(var(--accent), 0.08), transparent 60%);
+}
+
+a { color: rgb(var(--accent)); text-decoration: none; transition: opacity 0.2s; }
+a:hover { opacity: 0.85; }
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(16px, 4vw, 48px);
+  height: 56px;
+  background: rgba(10, 10, 15, 0.8);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+
+.top-bar-logo { font-weight: 700; font-size: 15px; letter-spacing: 0.08em; color: #fff; }
+.top-bar-nav { display: flex; gap: 24px; align-items: center; }
+.top-bar-nav a { color: var(--text-muted); font-size: 13px; letter-spacing: 0.04em; }
+.top-bar-nav a:hover { color: #fff; }
+.top-bar-nav .active { color: rgb(var(--accent)); }
+
+.container { max-width: 1080px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 48px); }
+
+.hero {
+  padding: 140px 0 60px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: clamp(36px, 6vw, 56px);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero h1 span { color: rgb(var(--accent)); }
+
+.hero p {
+  font-size: clamp(16px, 2vw, 18px);
+  color: var(--text-muted);
+  max-width: 580px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgb(var(--accent));
+  margin-bottom: 16px;
+}
+
+.section-label::before { content: ''; width: 24px; height: 1px; background: rgba(var(--accent), 0.6); }
+
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 32px 0 48px;
+}
+
+.filter-btn {
+  padding: 8px 18px;
+  border-radius: 100px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background: rgba(var(--accent), 0.12);
+  border-color: rgba(var(--accent), 0.4);
+  color: rgb(var(--accent));
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  padding-bottom: 80px;
+}
+
+.project-card {
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.project-card:hover {
+  background: var(--surface-hover);
+  border-color: rgba(var(--accent), 0.3);
+  transform: translateY(-4px);
+}
+
+.project-header {
+  padding: 28px 28px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.project-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(var(--accent), 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.project-links { display: flex; gap: 8px; }
+
+.project-link {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+
+.project-link:hover { background: rgba(var(--accent), 0.15); color: rgb(var(--accent)); }
+
+.project-body { padding: 20px 28px 28px; }
+
+.project-body h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.project-body p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.project-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.project-tag {
+  padding: 4px 10px;
+  border-radius: 100px;
+  background: rgba(var(--accent), 0.08);
+  border: 1px solid rgba(var(--accent), 0.15);
+  font-size: 11px;
+  color: rgba(var(--accent), 0.9);
+  letter-spacing: 0.04em;
+}
+
+.category-badge {
+  padding: 4px 10px;
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.badge-ai { background: rgba(139, 92, 246, 0.15); color: #a78bfa; border: 1px solid rgba(139, 92, 246, 0.25); }
+.badge-web { background: rgba(59, 130, 246, 0.15); color: #93c5fd; border: 1px solid rgba(59, 130, 246, 0.25); }
+.badge-tools { background: rgba(234, 179, 8, 0.15); color: #fcd34d; border: 1px solid rgba(234, 179, 8, 0.25); }
+.badge-auto { background: rgba(16, 185, 129, 0.15); color: #6ee7b7; border: 1px solid rgba(16, 185, 129, 0.25); }
+
+.github-cta {
+  padding: 60px 0 100px;
+  text-align: center;
+}
+
+.github-cta p { color: var(--text-muted); font-size: 16px; margin-bottom: 24px; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: all 0.25s;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover { transform: translateY(-2px); }
+.btn-primary { background: rgb(var(--accent)); color: #0a0a0f; }
+.btn-secondary { background: rgba(255, 255, 255, 0.06); color: #fff; border: 1px solid rgba(255, 255, 255, 0.15); }
+
+.footer {
+  padding: 32px 0;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.footer-links { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; }
+.footer-links a { color: var(--text-muted); font-size: 13px; }
+.footer-links a:hover { color: #fff; }
+.footer p { color: var(--text-dim); font-size: 12px; }
+
+@media (max-width: 640px) {
+  .hero { padding: 120px 0 40px; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .top-bar-nav { gap: 16px; }
+  .top-bar-nav a { font-size: 12px; }
+}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJS8PP42"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="top-bar">
+  <a href="/" class="top-bar-logo">MK</a>
+  <nav class="top-bar-nav">
+    <a href="/">Portfolio</a>
+    <a href="/hire">Hire</a>
+    <a href="/projects" class="active">Projects</a>
+    <a href="/consulting">Consulting</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero container">
+    <h1>Featured <span>Projects</span></h1>
+    <p>A selection of AI systems, web applications, developer tools, and automation I've built. Each project solves a real problem.</p>
+  </section>
+
+  <div class="container">
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">&#x1F916;</div>
+          <span class="category-badge badge-ai">AI</span>
+        </div>
+        <div class="project-body">
+          <h3>Multi-Model AI Router</h3>
+          <p>Intelligent routing layer that distributes requests across Claude, GPT-4, Gemini, and Groq based on task complexity, cost, and latency requirements.</p>
+          <div class="project-tags">
+            <span class="project-tag">TypeScript</span>
+            <span class="project-tag">Claude API</span>
+            <span class="project-tag">OpenAI</span>
+            <span class="project-tag">Edge Runtime</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">&#x1F3AF;</div>
+          <span class="category-badge badge-web">Web</span>
+        </div>
+        <div class="project-body">
+          <h3>Portfolio Time-Router</h3>
+          <p>Cloudflare Worker that rotates 5 portfolio sites on a time schedule via reverse proxy. Sticky sessions, health checks, and edge analytics.</p>
+          <div class="project-tags">
+            <span class="project-tag">Cloudflare Workers</span>
+            <span class="project-tag">TypeScript</span>
+            <span class="project-tag">Edge Computing</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">&#x1F4AC;</div>
+          <span class="category-badge badge-ai">AI</span>
+        </div>
+        <div class="project-body">
+          <h3>AI Agent Framework</h3>
+          <p>Multi-agent orchestration system with tool calling, memory persistence, and structured output. Built for production AI workflows.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">LangGraph</span>
+            <span class="project-tag">Anthropic SDK</span>
+            <span class="project-tag">pgvector</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">&#x1F527;</div>
+          <span class="category-badge badge-tools">Tools</span>
+        </div>
+        <div class="project-body">
+          <h3>Developer Tooling Suite</h3>
+          <p>Collection of CLI tools, VS Code extensions, and development utilities for AI-assisted engineering workflows.</p>
+          <div class="project-tags">
+            <span class="project-tag">TypeScript</span>
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">CLI</span>
+            <span class="project-tag">VS Code</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">&#x1F3EB;</div>
+          <span class="category-badge badge-web">Web</span>
+        </div>
+        <div class="project-body">
+          <h3>American Barber Institute</h3>
+          <p>Complete website redesign for a barber school with dual-campus support, bilingual content, GoHighLevel CRM, and GA4 analytics.</p>
+          <div class="project-tags">
+            <span class="project-tag">Next.js</span>
+            <span class="project-tag">Tailwind</span>
+            <span class="project-tag">GTM</span>
+            <span class="project-tag">SEO</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">&#x2699;&#xFE0F;</div>
+          <span class="category-badge badge-auto">Automation</span>
+        </div>
+        <div class="project-body">
+          <h3>AI Automation Pipelines</h3>
+          <p>Intelligent data processing pipelines with email parsing, document extraction, CRM sync, and automated reporting.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">FastAPI</span>
+            <span class="project-tag">Supabase</span>
+            <span class="project-tag">Webhooks</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <section class="github-cta container">
+    <p>More projects and open-source contributions on GitHub.</p>
+    <a href="https://github.com/mk-knight23" target="_blank" rel="noopener" class="btn btn-primary">View GitHub Profile</a>
+  </section>
+</main>
+
+<footer class="footer container">
+  <div class="footer-links">
+    <a href="/">Portfolio</a>
+    <a href="/hire">Hire</a>
+    <a href="/projects">Projects</a>
+    <a href="/consulting">Consulting</a>
+    <a href="/contact">Contact</a>
+  </div>
+  <p>&copy; 2025 Musharraf Kazi. All rights reserved.</p>
+</footer>
+
+<script>
+dataLayer.push({
+  event: 'page_view',
+  page_type: 'landing_page',
+  page_name: 'projects'
+});
+</script>
+</body>
+</html>
