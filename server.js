@@ -29,7 +29,7 @@ if (fs.existsSync(distPath)) {
     console.log('❌ Missing dist directory');
 }
 
-// Health check endpoint (Cloud Run sometimes uses this)
+// Health check endpoint
 app.get('/healthz', (req, res) => {
     res.status(200).send('OK');
 });

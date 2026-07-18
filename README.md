@@ -15,4 +15,4 @@ Drop your background videos / images into `public/media/` using the exact
 names listed in `public/media/README.md`. They appear automatically; until
 then an animated gradient fallback is shown.
 
-Deployed via Firebase / Vercel (see firebase.json / vercel.json).
+Deployed via Vercel (see vercel.json).
