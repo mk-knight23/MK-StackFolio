@@ -8,12 +8,13 @@
     "production": "npm run build && npm start",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
+    "preview": "npm run build && wrangler dev",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "type-check": "tsc --noEmit",
     "start": "node server.js",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "deploy": "npm run build && wrangler deploy"
   },
   "keywords": [
     "portfolio",
@@ -43,6 +44,7 @@
     "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.45.1",
     "@eslint/js": "^9.39.2",
     "@playwright/test": "^1.58.1",
     "@tailwindcss/vite": "^4.1.18",
@@ -60,6 +62,7 @@
     "tailwindcss": "^4.0.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.53.1",
-    "vite": "^6.4.1"
+    "vite": "^6.4.1",
+    "wrangler": "^4.112.0"
   }
 }
