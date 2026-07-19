@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mkazi.live</loc>
+    <loc>https://mk-stackfolio.vercel.app</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mkazi.live/hire</loc>
+    <loc>https://mk-stackfolio.vercel.app/hire</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mkazi.live/projects</loc>
+    <loc>https://mk-stackfolio.vercel.app/projects</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mkazi.live/consulting</loc>
+    <loc>https://mk-stackfolio.vercel.app/consulting</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mkazi.live/contact</loc>
+    <loc>https://mk-stackfolio.vercel.app/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
