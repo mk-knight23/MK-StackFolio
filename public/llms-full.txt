@@ -1,4 +1,4 @@
-# Musharraf Kazi — Complete Profile
+# Kazi Musharraf — Complete Profile
 
 > AI Engineer, AI Systems Architect, AI-Native Full-Stack Developer, Indie Builder, AI Automation Consultant
 
@@ -10,11 +10,11 @@
 - Website: https://mkazi.live
 - GitHub: https://github.com/mk-knight23
 - LinkedIn: https://linkedin.com/in/musharraf-kazi
-- Email: kazi@reprime.com
+- Email: mk.knight970@gmail.com
 
 ## Professional Summary
 
-Musharraf Kazi is an AI Engineer and Full-Stack Developer who builds production AI systems, developer tools, and SaaS products. His work spans agentic AI architectures, multi-model routing, real-time dashboards, and client-facing web applications. He has shipped 60+ projects and specializes in turning AI capabilities into working products.
+Kazi Musharraf is an AI Engineer and Full-Stack Developer who builds production AI systems, developer tools, and SaaS products. His work spans agentic AI architectures, multi-model routing, real-time dashboards, and client-facing web applications. His open-source work spans multiple project ecosystems; he specializes in turning AI capabilities into working products.
 
 ## Technical Skills
 
@@ -70,6 +70,13 @@ This portfolio is organized into five specialized views that rotate on mkazi.liv
 ## Contact
 
 For consulting, collaboration, or hiring inquiries:
-- Email: kazi@reprime.com
+- Email: mk.knight970@gmail.com
 - LinkedIn: https://linkedin.com/in/musharraf-kazi
 - GitHub: https://github.com/mk-knight23
+
+
+## Current profile context
+
+Public name: Kazi Musharraf. Alternate name: Musharraf Kazi. Former Wipro Project Engineer (July 2022–July 2025). Remote work base: India.
+This portfolio focuses on full-stack SaaS applications and MVP development.
+Project capabilities and deployment availability should be verified through the current source repositories and live pages.
