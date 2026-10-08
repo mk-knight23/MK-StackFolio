@@ -1,4 +1,4 @@
-# Full-Stack Developer Portfolio — Musharraf Kazi (MK Knight)
+# Full-Stack Developer Portfolio — Kazi Musharraf (MK Knight)
 
 A full-stack portfolio spanning **React, Next.js, Node and cloud** — end-to-end product engineering, from UI to API to deploy, in a cinematic motion-driven showcase.
 
@@ -11,7 +11,7 @@ A full-stack portfolio spanning **React, Next.js, Node and cloud** — end-to-en
 
 ## About
 
-I'm **Musharraf Kazi** (`mk-knight23`, *MK Knight*) — an India-based AI engineer and AI-native full-stack developer. This is my **Full-Stack Developer** portfolio, one of five discipline-specific sites that also rotate hourly at the root domain **[mkazi.live](https://mkazi.live)** via [MK Router](https://github.com/mk-knight23/mkazi-time-router).
+I'm **Kazi Musharraf** (`mk-knight23`, *MK Knight*) — an India-based AI engineer and AI-native full-stack developer. This is my **Full-Stack Developer** portfolio, one of five discipline-specific sites that also rotate hourly at the root domain **[mkazi.live](https://mkazi.live)** via [MK Router](https://github.com/mk-knight23/mkazi-time-router).
 
 ## Tech stack
 
@@ -52,4 +52,37 @@ Deployed on **Vercel** (`vercel.json`) — pushes to `main` deploy automatically
 
 ---
 
-© Musharraf Kazi · [mkazi.live](https://mkazi.live) · [github.com/mk-knight23](https://github.com/mk-knight23)
+© Kazi Musharraf · [mkazi.live](https://mkazi.live) · [github.com/mk-knight23](https://github.com/mk-knight23)
+
+
+## Search visibility and content strategy
+
+**Identity:** Kazi Musharraf (also known as Musharraf Ateeque Kazi, Musharraf Kazi and MK Knight), an India-based AI engineer and full-stack developer. Official hub: [mkazi.live](https://mkazi.live). GitHub: [mk-knight23](https://github.com/mk-knight23).
+
+**Specialization:** Full-stack SaaS engineering. This portfolio focuses on its own technical discipline rather than repeating identical content across five sites.
+
+### Search intent and topical authority
+
+| Funnel | Reader question / intent | Recommended content |
+|---|---|---|
+| TOFU | What is full-stack saas engineering? | Technical explainer with definitions and diagrams |
+| MOFU | How does full stack saas development work in a real project? | Architecture walkthrough and demonstrated repository |
+| BOFU | Can an experienced engineer build this for my product? | Evidence-led case study, scope, constraints and contact path |
+
+### Editorial roadmap (proposals, not yet published pages)
+
+- **Pillar:** Full-stack SaaS engineering — architecture, examples, technologies and tradeoffs.
+- **Supporting article:** Build a SaaS MVP with Next.js and Node.js.
+- **Supporting article:** SaaS authentication and multi-tenancy.
+- **Supporting article:** Integrating AI features into web applications.
+- **Commercial page:** Services and project engagement for full-stack saas engineering, with scope, process and proof, not invented client results.
+
+### Publishing requirements
+
+- Lead with an answer that directly satisfies the query, then explain tradeoffs and provide original implementation evidence.
+- Credit the author as **Kazi Musharraf**; link to the official identity at https://mkazi.live/.
+- Use clear H1/H2 headings, descriptive internal links, real project screenshots, and accurate image alt text.
+- Include crawlable URLs, self-referential canonicals and valid structured data that matches visible content.
+- Do not fabricate traffic, customer outcomes, performance benchmarks, backlink counts or search volumes.
+- Use Search Console impressions and queries to prioritize articles and validate demand before scaling.
+
