@@ -1,15 +1,12 @@
 /* TEAM */
-Developer: Musharraf Kazi
+Developer: Kazi Musharraf
+Also known as: Musharraf Kazi, MK Knight
 Role: AI Engineer & Full-Stack Developer
 Location: India
-GitHub: mk-knight23
-LinkedIn: musharraf-kazi
-Contact: kazi@reprime.com
+GitHub: https://github.com/mk-knight23
+Contact: mk.knight970@gmail.com
 
 /* SITE */
-Domain: mkazi.live
-Standards: HTML5, CSS3, JavaScript ES2024
-Components: React, TypeScript, Tailwind CSS, Three.js, Framer Motion
-Hosting: Vercel (app), Cloudflare (DNS + CDN + Workers)
-Analytics: Google Analytics 4 via Google Tag Manager
-Last Updated: 2026-07-17
+Domain: https://fullstack.mkazi.live/
+Focus: Full-Stack Development
+Last Updated: 2026-10-08

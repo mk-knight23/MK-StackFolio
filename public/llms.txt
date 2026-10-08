@@ -1,27 +1,32 @@
-# Musharraf Kazi — AI Engineer & Full-Stack Developer
+# Kazi Musharraf — Full-Stack Development
 
-> Personal portfolio of Musharraf Kazi (also known as Kazi Musharraf, MK Knight), an India-based AI Engineer, AI Systems Architect, and Indie Product Builder.
+> India-based AI engineer, full-stack developer and independent builder. Also known as Musharraf Kazi, Musharraf Ateeque Kazi, MK Knight and mk-knight23.
 
-## About
+## Profile
 
-Musharraf Kazi is an AI Engineer specializing in Agentic AI, Multi-LLM Routing, Developer Tools, and Full-Stack Product Development. He builds AI-powered applications, SaaS products, and developer tools using modern web technologies and multiple AI model providers.
+Former Project Engineer at Wipro Technologies, July 2022 to July 2025. Works remotely from India. This portfolio focuses on full-stack SaaS applications and MVP development.
 
-## Expertise
+## Verified public links
 
-- AI Engineering: Agentic AI, Multi-LLM Routing, RAG, Tool Calling, Agent Memory
-- Frontend: React, Next.js, TypeScript, Tailwind CSS, Three.js, Motion Design
-- Backend: Node.js, Python, FastAPI, Django, Flask, Express, REST APIs
-- Data: PostgreSQL, Supabase, Firebase, pgvector, Vector Databases
-- AI Providers: Anthropic Claude, OpenAI, Google Gemini, Groq, Ollama
-- Infrastructure: Vercel, Cloudflare, Docker, GitHub Actions, Serverless
+- [Portfolio](https://fullstack.mkazi.live/)
+- [Work and technology stack](https://fullstack.mkazi.live/portfolio)
+- [Projects and source links](https://fullstack.mkazi.live/projects)
+- [Remote engineering services](https://fullstack.mkazi.live/hire)
+- [Consulting](https://fullstack.mkazi.live/consulting)
+- [Contact](https://fullstack.mkazi.live/contact)
+- [GitHub](https://github.com/mk-knight23)
 
-## Links
+## Contact
 
-- Website: https://mkazi.live
-- GitHub: https://github.com/mk-knight23
-- LinkedIn: https://linkedin.com/in/musharraf-kazi
-- Email: kazi@reprime.com
+Email: mk.knight970@gmail.com
+Timezone: Asia/Kolkata (UTC+05:30)
 
-## Projects
+## Portfolio network
 
-This portfolio showcases 60+ shipped projects across AI, full-stack development, frontend engineering, backend systems, and developer tools.
+- https://devtools.mkazi.live/
+- https://fullstack.mkazi.live/
+- https://backend.mkazi.live/
+- https://ai.mkazi.live/
+- https://frontend.mkazi.live/
+
+Project capabilities and deployment availability should be checked against the linked source repositories and current live pages. No ranking, usage or performance claims are implied.
