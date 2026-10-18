@@ -84,5 +84,5 @@ Project capabilities and deployment availability should be verified through the 
 
 ## Identity references
 
-- Stable biography: https://mkazi.live/about
+- Stable biography: https://devtools.mkazi.live/about.html
 - Portrait: https://devtools.mkazi.live/kazi-musharraf.jpg
