@@ -9,7 +9,7 @@
 - Location: India
 - Website: https://mkazi.live
 - GitHub: https://github.com/mk-knight23
-- LinkedIn: https://linkedin.com/in/musharraf-kazi
+- LinkedIn: https://www.linkedin.com/in/kazi-musharraf-0674871a4
 - Email: mk.knight970@gmail.com
 
 ## Professional Summary
@@ -71,7 +71,7 @@ This portfolio is organized into five specialized views that rotate on mkazi.liv
 
 For consulting, collaboration, or hiring inquiries:
 - Email: mk.knight970@gmail.com
-- LinkedIn: https://linkedin.com/in/musharraf-kazi
+- LinkedIn: https://www.linkedin.com/in/kazi-musharraf-0674871a4
 - GitHub: https://github.com/mk-knight23
 
 
@@ -80,3 +80,9 @@ For consulting, collaboration, or hiring inquiries:
 Public name: Kazi Musharraf. Alternate name: Musharraf Kazi. Former Wipro Project Engineer (July 2022–July 2025). Remote work base: India.
 This portfolio focuses on full-stack SaaS applications and MVP development.
 Project capabilities and deployment availability should be verified through the current source repositories and live pages.
+
+
+## Identity references
+
+- Stable biography: https://mkazi.live/about
+- Portrait: https://devtools.mkazi.live/kazi-musharraf.jpg

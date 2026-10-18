@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://fullstack.mkazi.live</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://fullstack.mkazi.live</loc><image:image><image:loc>https://fullstack.mkazi.live/kazi-musharraf.jpg</image:loc></image:image><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://fullstack.mkazi.live/portfolio</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fullstack.mkazi.live/hire</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fullstack.mkazi.live/projects</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -8,3 +8,4 @@
   <url><loc>https://fullstack.mkazi.live/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://fullstack.mkazi.live/full-stack-developer</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
+

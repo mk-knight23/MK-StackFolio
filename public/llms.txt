@@ -4,6 +4,10 @@
 
 ## Profile
 
+Stable biography: https://mkazi.live/about
+LinkedIn: https://www.linkedin.com/in/kazi-musharraf-0674871a4
+Portrait: https://devtools.mkazi.live/kazi-musharraf.jpg
+
 Former Project Engineer at Wipro Technologies, July 2022 to July 2025. Works remotely from India. This portfolio focuses on full-stack SaaS applications and MVP development.
 
 ## Verified public links
@@ -30,3 +34,4 @@ Timezone: Asia/Kolkata (UTC+05:30)
 - https://frontend.mkazi.live/
 
 Project capabilities and deployment availability should be checked against the linked source repositories and current live pages. No ranking, usage or performance claims are implied.
+
