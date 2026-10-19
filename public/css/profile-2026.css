@@ -4,3 +4,5 @@
 @media(max-width:700px){.mk3-split{grid-template-columns:1fr}.mk3-header{gap:14px}.mk3-header nav{gap:10px 16px}.mk3-home{margin:18px 12px!important}.mk3-page h1,.mk3 h1{letter-spacing:-.03em}.mk3-orbit{min-height:230px}.mk3-page main{padding-top:12px}.mk3-actions a{flex:1}.mk3-portrait{max-width:220px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important}.mk3-card:hover{transform:none}}
 html[data-mk3-motion=off] *,html[data-mk3-motion=off] *::before,html[data-mk3-motion=off] *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+
+.mk3{font:16px/1.75 Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}.mk3 h1{text-transform:none}.mk3-home .mk3-chip{letter-spacing:normal}
