@@ -86,3 +86,7 @@ Project capabilities and deployment availability should be verified through the 
 
 - Stable biography: https://devtools.mkazi.live/about
 - Portrait: https://devtools.mkazi.live/kazi-musharraf.jpg
+
+Skills with project evidence: https://devtools.mkazi.live/skills
+Engineering case studies: https://devtools.mkazi.live/case-studies
+Location: India. Seeking eligible remote AI engineering roles, freelance development and consulting. USD/AED scope discussions welcome.
