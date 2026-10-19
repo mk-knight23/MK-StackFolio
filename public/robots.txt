@@ -2,3 +2,13 @@ User-agent: *
 Allow: /
 
 Sitemap: https://fullstack.mkazi.live/sitemap.xml
+
+# Search/user retrieval bots; existing training crawler policy is preserved.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /

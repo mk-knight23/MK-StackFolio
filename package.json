@@ -14,7 +14,7 @@
     "type-check": "tsc --noEmit",
     "start": "node server.js",
     "test:e2e": "playwright test",
-    "test": "node --test test/portfolio.test.cjs"
+    "test": "node --test test/*.test.cjs"
   },
   "keywords": [
     "portfolio",

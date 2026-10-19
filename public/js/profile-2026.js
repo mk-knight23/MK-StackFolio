@@ -1,0 +1,12 @@
+(function(){'use strict';
+function normalize(value){return String(value||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}
+function matches(text,query,category,itemCategory){return(category==='all'||category===itemCategory)&&normalize(query).split(/\s+/).filter(Boolean).every(function(term){return normalize(text).includes(term);});}
+function composeMailto(fields){var kind=String(fields.kind||'Engineering inquiry').slice(0,80);var body=['Name: '+String(fields.name||'').slice(0,100),'Reply email: '+String(fields.email||'').slice(0,180),'Engagement: '+kind,'','Brief:',''+String(fields.brief||'').slice(0,2600)].join('\n');return 'mailto:kazimusharraf1234@gmail.com?subject='+encodeURIComponent(kind+' — Kazi Musharraf')+'&body='+encodeURIComponent(body);}
+if(typeof module==='object'&&module.exports){module.exports={matches:matches,composeMailto:composeMailto};return;}
+function init(){document.querySelectorAll('[data-mk3-filter]').forEach(function(group){var input=group.querySelector('[data-mk3-query]'),select=group.querySelector('[data-mk3-category]'),status=group.querySelector('[data-mk3-count]'),items=Array.from(group.querySelectorAll('[data-mk3-item]'));function update(){var count=0;items.forEach(function(item){var yes=matches(item.textContent,input.value,select.value,item.dataset.category);item.hidden=!yes;if(yes)count++;});if(status)status.textContent=count+' matching skill groups';}input.addEventListener('input',update);select.addEventListener('change',update);update();});
+document.querySelectorAll('[data-mk3-motion-toggle]').forEach(function(button){button.addEventListener('click',function(){var off=document.documentElement.dataset.mk3Motion!=='off';document.documentElement.dataset.mk3Motion=off?'off':'on';button.textContent=off?'Motion: off':'Motion: on';button.setAttribute('aria-pressed',String(off));});});
+document.querySelectorAll('.mk3-header nav a').forEach(function(a){if(a.pathname===location.pathname)a.setAttribute('aria-current','page');});
+var form=document.getElementById('mk3-project-brief');if(form)form.addEventListener('submit',function(event){event.preventDefault();if(!form.reportValidity())return;var data=new FormData(form);var link=composeMailto(Object.fromEntries(data));document.getElementById('mk3-form-status').textContent='Your email app will open with a draft. Review it and send when ready.';location.href=link;});
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+})();
