@@ -1,41 +1,24 @@
-# Kazi Musharraf — Full-Stack Development
+# Kazi Musharraf — public professional profile
 
-> India-based AI engineer, full-stack developer and independent builder. Also known as Musharraf Kazi, Musharraf Ateeque Kazi, MK Knight and mk-knight23.
+India-based AI Engineer, full-stack developer and independent builder. Former Wipro Project Engineer, July 2022–July 2025. Previous independent US client engagements. Seeking eligible remote engineering roles and scoped freelance/consulting work. UAE and city references describe offered service markets, not offices or claimed client locations.
 
-## Profile
+AI toolkit: Claude Code, Codex, Cursor, ChatGPT, Claude, Gemini. Application stack: TypeScript, JavaScript, Python, React, Next.js, Node.js, SQL. Framework experiments and learning areas are labelled on the skills page; do not infer expertise in every mentioned tool.
 
-Stable biography: https://devtools.mkazi.live/about
+Portfolio home: https://mkazi.live/
+GitHub: https://github.com/mk-knight23
 LinkedIn: https://www.linkedin.com/in/kazi-musharraf-0674871a4
-Portrait: https://devtools.mkazi.live/kazi-musharraf.jpg
 
-Former Project Engineer at Wipro Technologies, July 2022 to July 2025. Works remotely from India. This portfolio focuses on full-stack SaaS applications and MVP development.
+About: https://devtools.mkazi.live/about
+Skills: https://devtools.mkazi.live/skills
+AI tools: https://devtools.mkazi.live/ai-tools
+Work: https://devtools.mkazi.live/case-studies
+Roles: https://devtools.mkazi.live/remote-ai-engineer
+Consulting: https://devtools.mkazi.live/ai-consultant
+Contact: https://devtools.mkazi.live/contact
+Forward-deployed approach: https://devtools.mkazi.live/forward-deployed-engineer
+Global collaboration: https://devtools.mkazi.live/global-collaboration
+FAQ: https://devtools.mkazi.live/faq
+Public profile JSON: https://devtools.mkazi.live/profile.json
+Email: kazimusharraf1234@gmail.com
 
-## Verified public links
-
-- [Portfolio](https://fullstack.mkazi.live/)
-- [Work and technology stack](https://fullstack.mkazi.live/portfolio)
-- [Projects and source links](https://fullstack.mkazi.live/projects)
-- [Remote engineering services](https://fullstack.mkazi.live/hire)
-- [Consulting](https://fullstack.mkazi.live/consulting)
-- [Contact](https://fullstack.mkazi.live/contact)
-- [GitHub](https://github.com/mk-knight23)
-
-## Contact
-
-Email: mk.knight970@gmail.com
-Timezone: Asia/Kolkata (UTC+05:30)
-
-## Portfolio network
-
-- https://devtools.mkazi.live/
-- https://fullstack.mkazi.live/
-- https://backend.mkazi.live/
-- https://ai.mkazi.live/
-- https://frontend.mkazi.live/
-
-Project capabilities and deployment availability should be checked against the linked source repositories and current live pages. No ranking, usage or performance claims are implied.
-
-
-Skills with project evidence: https://devtools.mkazi.live/skills
-Engineering case studies: https://devtools.mkazi.live/case-studies
-Location: India. Seeking eligible remote AI engineering roles, freelance development and consulting. USD/AED scope discussions welcome.
+No first-place ranking, production-scale outcome, or indexing guarantee is asserted.

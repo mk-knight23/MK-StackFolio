@@ -1,92 +1,48 @@
-# Kazi Musharraf — Complete Profile
+# Kazi Musharraf — public professional profile
 
-> AI Engineer, AI Systems Architect, AI-Native Full-Stack Developer, Indie Builder, AI Automation Consultant
+India-based AI Engineer, full-stack developer and independent builder. Former Wipro Project Engineer, July 2022–July 2025. Previous independent US client engagements. Seeking eligible remote engineering roles and scoped freelance/consulting work. UAE and city references describe offered service markets, not offices or claimed client locations.
 
-## Identity
+AI toolkit: Claude Code, Codex, Cursor, ChatGPT, Claude, Gemini. Application stack: TypeScript, JavaScript, Python, React, Next.js, Node.js, SQL. Framework experiments and learning areas are labelled on the skills page; do not infer expertise in every mentioned tool.
 
-- Full Name: Musharraf Ateeque Kazi
-- Also Known As: Kazi Musharraf, MK Knight, mk-knight23, mk.knight970
-- Location: India
-- Website: https://mkazi.live
-- GitHub: https://github.com/mk-knight23
-- LinkedIn: https://www.linkedin.com/in/kazi-musharraf-0674871a4
-- Email: mk.knight970@gmail.com
+Portfolio home: https://mkazi.live/
+GitHub: https://github.com/mk-knight23
+LinkedIn: https://www.linkedin.com/in/kazi-musharraf-0674871a4
 
-## Professional Summary
+About: https://devtools.mkazi.live/about
+Skills: https://devtools.mkazi.live/skills
+AI tools: https://devtools.mkazi.live/ai-tools
+Work: https://devtools.mkazi.live/case-studies
+Roles: https://devtools.mkazi.live/remote-ai-engineer
+Consulting: https://devtools.mkazi.live/ai-consultant
+Contact: https://devtools.mkazi.live/contact
+Forward-deployed approach: https://devtools.mkazi.live/forward-deployed-engineer
+Global collaboration: https://devtools.mkazi.live/global-collaboration
+FAQ: https://devtools.mkazi.live/faq
+Public profile JSON: https://devtools.mkazi.live/profile.json
+Email: kazimusharraf1234@gmail.com
 
-Kazi Musharraf is an AI Engineer and Full-Stack Developer who builds production AI systems, developer tools, and SaaS products. His work spans agentic AI architectures, multi-model routing, real-time dashboards, and client-facing web applications. His open-source work spans multiple project ecosystems; he specializes in turning AI capabilities into working products.
+No first-place ranking, production-scale outcome, or indexing guarantee is asserted.
 
-## Technical Skills
+Who is Kazi Musharraf?
+Kazi Musharraf, also known as Musharraf Ateeque Kazi and mk-knight23, is an India-based AI Engineer, full-stack developer and independent builder. He previously worked at Wipro Technologies as a Project Engineer from July 2022 to July 2025.
 
-### AI & Machine Learning
-- Large Language Model Integration (Claude, GPT, Gemini, Groq, Ollama)
-- Multi-LLM Routing and Orchestration
-- Agentic AI Systems (Tool Calling, Agent Memory, Multi-Agent Workflows)
-- Retrieval-Augmented Generation (RAG)
-- Vector Databases and Embeddings (pgvector, Pinecone)
-- AI SDKs: Anthropic SDK, OpenAI SDK, Vercel AI SDK, LangChain, LangGraph, CrewAI
+Is Kazi available for remote AI engineering roles?
+I am interested in remote AI Engineer, Applied AI Engineer, Full-Stack AI Engineer and Forward Deployed Engineer opportunities that can engage an India-based engineer. Availability and working-hour overlap are discussed before starting.
 
-### Frontend Development
-- React, Next.js, Vue, Nuxt, Angular, Svelte, Astro, Remix
-- TypeScript, JavaScript
-- Tailwind CSS, shadcn/ui
-- Three.js, Framer Motion, GSAP
-- Design Systems and Component Libraries
-- Responsive Design and Accessibility
+Does Kazi work with US and UAE teams?
+I have previously worked independently for US clients. I welcome remote projects with US, UK, UAE and Indian teams. I work from India; mentioning a city describes a potential service market, not a local office or work authorization.
 
-### Backend Development
-- Node.js, Express, Fastify
-- Python, FastAPI, Django, Flask
-- REST APIs, GraphQL, WebSockets
-- Authentication and Authorization
-- Background Jobs and Queues
-- Serverless Functions
+Which AI tools does Kazi use?
+My toolkit includes Claude Code, OpenAI Codex, Cursor, ChatGPT, Claude and Gemini, alongside assistant workflow repositories and AI SDK experiments. The skills and AI tools pages distinguish current use from exploration.
 
-### Data & Infrastructure
-- PostgreSQL, Supabase, Firebase, SQLite
-- Prisma ORM
-- Docker, GitHub Actions
-- Vercel, Cloudflare Workers, Railway, AWS
-- CI/CD Pipelines
+What can I hire Kazi to build?
+Scoped AI features, assistant interfaces, web applications, API integrations, developer workflows and prototypes. Discovery identifies the actual problem, data access, implementation boundaries and acceptance criteria.
 
-## Portfolio Sections
+What does a forward-deployed approach mean here?
+Understand the users and their workflow, define a small useful outcome, build a demonstrable version, verify behavior, deploy and document handover. This is a delivery approach and role interest, not a claim of having held a formal FDE title.
 
-This portfolio is organized into five specialized views that rotate on mkazi.live:
+Can consulting be discussed in USD or AED?
+Yes. Project scope, budget, payment terms, milestones, availability and handover are agreed before work begins. No fixed rate or service guarantee is implied by this portfolio.
 
-1. **DevTools & AI** — AI developer tools, CLI utilities, SDK integrations, multi-model routing systems
-2. **Full-Stack Products** — End-to-end SaaS applications, dashboards, command centers, CRM integrations
-3. **Frontend Engineering** — Motion design, UI/UX craft, design systems, Three.js experiences, component libraries
-4. **Backend Systems** — APIs, databases, infrastructure, scalability, authentication, data pipelines
-5. **AI Frontend** — AI-powered interfaces, LLM integration UIs, agent-driven user experiences, chat interfaces
-
-## Key Projects
-
-- Multi-LLM Router: Intelligent routing across Claude, GPT, Gemini with cost optimization
-- AI Command Center: Real-time dashboard integrating Gmail, WhatsApp, Calendar, AI Assistant
-- Developer Tool Suite: QuizFlow, VaultPass, VoiceKit, VisualVault, GitFlow
-- Client Websites: Roofing companies, barber schools, real estate platforms
-- Data Platform: Multi-source economic data aggregation with 22-source search
-
-## Contact
-
-For consulting, collaboration, or hiring inquiries:
-- Email: mk.knight970@gmail.com
-- LinkedIn: https://www.linkedin.com/in/kazi-musharraf-0674871a4
-- GitHub: https://github.com/mk-knight23
-
-
-## Current profile context
-
-Public name: Kazi Musharraf. Alternate name: Musharraf Kazi. Former Wipro Project Engineer (July 2022–July 2025). Remote work base: India.
-This portfolio focuses on full-stack SaaS applications and MVP development.
-Project capabilities and deployment availability should be verified through the current source repositories and live pages.
-
-
-## Identity references
-
-- Stable biography: https://devtools.mkazi.live/about
-- Portrait: https://devtools.mkazi.live/kazi-musharraf.jpg
-
-Skills with project evidence: https://devtools.mkazi.live/skills
-Engineering case studies: https://devtools.mkazi.live/case-studies
-Location: India. Seeking eligible remote AI engineering roles, freelance development and consulting. USD/AED scope discussions welcome.
+Where can I review the work?
+The case studies link to QuizFlow, AI assistant workflows, Python SDK experiments and the portfolio router. They describe implementation choices and current limits, with live demos where available.
