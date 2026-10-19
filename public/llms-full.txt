@@ -46,3 +46,5 @@ Yes. Project scope, budget, payment terms, milestones, availability and handover
 
 Where can I review the work?
 The case studies link to QuizFlow, AI assistant workflows, Python SDK experiments and the portfolio router. They describe implementation choices and current limits, with live demos where available.
+
+- Interactive project explorer: https://fullstack.mkazi.live/explore — searchable source-linked projects, implementation notes and current limits.
