@@ -13,7 +13,8 @@
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "type-check": "tsc --noEmit",
     "start": "node server.js",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test": "node --test test/portfolio.test.cjs"
   },
   "keywords": [
     "portfolio",
@@ -30,9 +31,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mk-knight23/02-repos-browser.git"
+    "url": "git+https://github.com/mk-knight23/MK-StackFolio.git"
   },
-  "homepage": "https://mk-knight23.github.io/02-repos-browser/",
+  "homepage": "https://fullstack.mkazi.live/",
   "dependencies": {
     "clsx": "^2.1.1",
     "express": "^4.22.1",
