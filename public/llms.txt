@@ -35,3 +35,7 @@ Timezone: Asia/Kolkata (UTC+05:30)
 
 Project capabilities and deployment availability should be checked against the linked source repositories and current live pages. No ranking, usage or performance claims are implied.
 
+
+Skills with project evidence: https://devtools.mkazi.live/skills
+Engineering case studies: https://devtools.mkazi.live/case-studies
+Location: India. Seeking eligible remote AI engineering roles, freelance development and consulting. USD/AED scope discussions welcome.

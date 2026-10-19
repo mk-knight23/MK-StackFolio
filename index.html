@@ -2175,6 +2175,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </section>
 <section class="mk-opportunities" aria-labelledby="mk-opportunities-title"><h2 id="mk-opportunities-title">Remote AI engineering &amp; consulting</h2><p>I build AI agents, LLM applications, developer tools and full-stack web products. Based in India and open to remote AI Engineer roles and international client projects.</p><p>For consulting, share your workflow, existing stack, deliverables, timeline and budget. USD and AED project discussions are welcome; scope and terms are agreed before work starts.</p><nav aria-label="Work with Kazi Musharraf"><a href="/hire">Remote engineering roles</a><a href="/consulting">Discuss a consulting project</a><a href="/projects">Review project sources</a><a href="mailto:kazimusharraf1234@gmail.com?subject=Remote%20AI%20engineering%20inquiry">Email Kazi</a></nav></section>
+<section class="mk" id="engagement-mk" data-tab="Engineering"><p class="eyebrow">Remote work · Independent building</p><h2>Engineering for teams and client projects</h2><p>I’m Kazi Musharraf, an India-based AI Engineer, Full-Stack Developer and independent builder. I bring enterprise application experience from Wipro (July 2022–July 2025) to AI applications, developer tools and web products.</p><div class="mk-grid3"><div class="mk-card"><h3>Remote employment</h3><p>AI Engineer, Applied AI Engineer, Full-Stack AI Engineer and Developer Tools Engineer roles that accept India-based applicants. US, UK and UAE teams are welcome to discuss location eligibility and working-hour overlap.</p></div><div class="mk-card"><h3>Freelance delivery</h3><p>Scoped AI feature integration, React/Next.js interfaces, API development, developer workflow setup and web product improvements. We agree on milestones, acceptance criteria and handover before delivery.</p></div><div class="mk-card"><h3>Consulting & collaboration</h3><p>Workflow discovery, technical review, AI prototyping and implementation planning. USD and AED engagements are welcome; availability, confidentiality and any employment commitments are agreed per engagement.</p></div></div><p><a href="/skills">Explore skills with source evidence</a> · <a href="/case-studies">Read engineering case studies</a> · <a href="/hire">Hiring information</a> · <a href="/consulting">Consulting scope</a></p></section>
 <section class="mk" id="about-mk" data-tab="About"><span class="eyebrow">About</span><h2>Kazi Musharraf</h2>
 <p class="lead">I am an India-based AI engineer and independent builder with a full-stack foundation. I build LLM applications, agent workflows and developer tools using Python, TypeScript, React and Next.js. My public source examples include structured AI generation, MCP tool integration and typed LangGraph flows. Former Project Engineer at Wipro Technologies (July 2022–July 2025).</p>
 <div class="mk-hl"><span>AI Engineer with a full-stack foundation</span><span>Enterprise software experience</span><span>Agentic AI &amp; automation focus</span><span>SaaS, dashboards, tools &amp; prototypes</span><span>Frontend → backend → DB → cloud → AI</span><span>Ship fast, improve continuously</span></div>
@@ -2216,7 +2217,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div></section>
 
 
-<section class="ghp" id="work"><span class="eyebrow">From GitHub · github.com/mk-knight23</span><h2>Flagship projects</h2><p class="sub">A hand-picked set — open the repo or the live demo. Live builds are badged; key in-progress flagships are marked coming soon.</p><div class="ghp-chips" id="ghpChips"></div><div class="ghp-grid" id="ghpGrid"></div></section>
+<section class="ghp" id="work"><span class="eyebrow">From GitHub · github.com/mk-knight23</span><h2>Flagship projects</h2><p class="sub">A hand-picked set — open the repo or the live demo. Live builds are badged; source-only projects link directly to their repositories.</p><div class="ghp-chips" id="ghpChips"></div><div class="ghp-grid" id="ghpGrid"></div></section>
 
 
 
@@ -3115,9 +3116,9 @@ ready(function(){
  function card(p){
   var og='https://opengraph.githubassets.com/1/mk-knight23/'+p.n;
   var thumb=p.live?(p.live.replace(/\/$/, '')+'/og-image.png'):og;
-  var live=p.live?('<a class="ghp-live" href="'+p.live+'" target="_blank" rel="noopener">Live Demo ↗</a>'):('<a class="ghp-soon">Coming soon</a>');
+  var live=p.live?('<a class="ghp-live" href="'+p.live+'" target="_blank" rel="noopener">Live Demo ↗</a>'):('<span class="ghp-soon">Source available</span>');
   return '<article class="ghp-card" data-live="'+(p.live?1:0)+'">'+
-   '<div class="ghp-thumb"><span class="ghp-badge '+(p.live?'live':'soon')+'">'+(p.live?'Live':'Soon')+'</span>'+
+   '<div class="ghp-thumb"><span class="ghp-badge '+(p.live?'live':'soon')+'">'+(p.live?'Live':'Source')+'</span>'+
    '<img loading="lazy" src="'+thumb+'" onerror="this.onerror=null;this.src=\''+og+'\'" alt="'+p.n+'"></div>'+
    '<div class="ghp-body"><h3>'+p.n+'</h3>'+(p.lang?'<div class="ghp-lang">'+p.lang+'</div>':'')+
    '<div class="ghp-desc">'+(p.desc||'')+'</div>'+
