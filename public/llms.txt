@@ -22,3 +22,5 @@ Public profile JSON: https://devtools.mkazi.live/profile.json
 Email: kazimusharraf1234@gmail.com
 
 No first-place ranking, production-scale outcome, or indexing guarantee is asserted.
+
+- Interactive project explorer: https://fullstack.mkazi.live/explore — searchable source-linked projects, implementation notes and current limits.

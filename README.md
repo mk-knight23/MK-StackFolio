@@ -86,3 +86,9 @@ Deployed on **Vercel** (`vercel.json`) — pushes to `main` deploy automatically
 - Do not fabricate traffic, customer outcomes, performance benchmarks, backlink counts or search volumes.
 - Use Search Console impressions and queries to prioritize articles and validate demand before scaling.
 
+
+## Interactive project explorer
+
+[Explore the work](https://fullstack.mkazi.live/explore): filter by discipline or technology, share a filtered URL, and expand implementation notes and current limits. A terminal-style panel supports `help`, `projects`, `ai`, `backend`, `tools`, `contact` and `clear`. Search works with `/` and `Esc`. All five project cards remain readable without JavaScript. No new runtime dependencies.
+
+Inspired by the Awesome GitHub Profile README directory; [source-by-source review and adoption decisions](https://github.com/mk-knight23/mk-knight23/blob/main/docs/profile-reference-review.md).
