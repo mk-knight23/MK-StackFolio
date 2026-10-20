@@ -1,5 +1,27 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/mcp",
+      "destination": "https://router.mkazi.live/mcp"
+    },
+    {
+      "source": "/api/portfolio",
+      "destination": "https://router.mkazi.live/api/portfolio"
+    },
+    {
+      "source": "/api/projects",
+      "destination": "https://router.mkazi.live/api/projects"
+    },
+    {
+      "source": "/openapi.json",
+      "destination": "https://router.mkazi.live/openapi.json"
+    },
+    {
+      "source": "/portfolio.md",
+      "destination": "https://router.mkazi.live/portfolio.md"
+    }
+  ]
 }
