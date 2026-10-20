@@ -24,3 +24,12 @@ Email: kazimusharraf1234@gmail.com
 No first-place ranking, production-scale outcome, or indexing guarantee is asserted.
 
 - Interactive project explorer: https://fullstack.mkazi.live/explore — searchable source-linked projects, implementation notes and current limits.
+
+## Agent access
+- Human guide: https://fullstack.mkazi.live/agents
+- Canonical public evidence: https://mkazi.live/api/portfolio
+- Search API: https://mkazi.live/api/projects
+- Markdown: https://mkazi.live/portfolio.md
+- OpenAPI: https://mkazi.live/openapi.json
+- Public read-only MCP: https://mkazi.live/mcp
+Tools return public facts and source-linked project evidence, or prepare an unsent project discussion outline. No hiring, availability or outcome guarantees.

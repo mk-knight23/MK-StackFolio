@@ -92,3 +92,7 @@ Deployed on **Vercel** (`vercel.json`) — pushes to `main` deploy automatically
 [Explore the work](https://fullstack.mkazi.live/explore): filter by discipline or technology, share a filtered URL, and expand implementation notes and current limits. A terminal-style panel supports `help`, `projects`, `ai`, `backend`, `tools`, `contact` and `clear`. Search works with `/` and `Esc`. All five project cards remain readable without JavaScript. No new runtime dependencies.
 
 Inspired by the Awesome GitHub Profile README directory; [source-by-source review and adoption decisions](https://github.com/mk-knight23/mk-knight23/blob/main/docs/profile-reference-review.md).
+
+## Agent access
+
+The portfolio now links a public [agent guide](https://fullstack.mkazi.live/agents), canonical [JSON evidence](https://mkazi.live/api/portfolio), [OpenAPI](https://mkazi.live/openapi.json), and a [read-only MCP server](https://mkazi.live/mcp). Tools expose public profile/project evidence and prepare unsent discussion outlines. See the guide for connection instructions and limitations. AI search inclusion and ranking are not guaranteed.
