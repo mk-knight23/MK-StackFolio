@@ -33,3 +33,8 @@ No first-place ranking, production-scale outcome, or indexing guarantee is asser
 - OpenAPI: https://mkazi.live/openapi.json
 - Public read-only MCP: https://mkazi.live/mcp
 Tools return public facts and source-linked project evidence, or prepare an unsent project discussion outline. No hiring, availability or outcome guarantees.
+
+## Verifiable repository technology inventory
+
+- [Technology inventory](https://fullstack.mkazi.live/technology-stack.json): package.json-derived runtime and development dependencies, plus available commands. This is repository evidence, not a claim of personal proficiency in every dependency.
+- [Source repository](https://github.com/mk-knight23/MK-StackFolio): inspect implementation and tests before interpreting skills claims.
