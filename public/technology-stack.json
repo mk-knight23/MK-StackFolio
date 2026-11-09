@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "site": "https://fullstack.mkazi.live/",
+  "repository": "https://github.com/mk-knight23/MK-StackFolio",
+  "scope": "Technologies evidenced by this repository's package.json, not a comprehensive personal skills assessment",
+  "runtimeDependencies": [
+    "clsx",
+    "express",
+    "framer-motion",
+    "lucide-react",
+    "react",
+    "react-dom",
+    "tailwind-merge"
+  ],
+  "developmentDependencies": [
+    "@eslint/js",
+    "@playwright/test",
+    "@tailwindcss/vite",
+    "@types/react",
+    "@types/react-dom",
+    "@typescript-eslint/eslint-plugin",
+    "@typescript-eslint/parser",
+    "@vitejs/plugin-react",
+    "autoprefixer",
+    "eslint",
+    "eslint-plugin-react-hooks",
+    "eslint-plugin-react-refresh",
+    "globals",
+    "postcss",
+    "tailwindcss",
+    "typescript",
+    "typescript-eslint",
+    "vite"
+  ],
+  "availableCommands": {
+    "production": "npm run build && npm start",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "type-check": "tsc --noEmit",
+    "start": "node server.js",
+    "test:e2e": "playwright test",
+    "test": "node --test test/*.test.cjs"
+  }
+}
